@@ -1,9 +1,13 @@
 import React from 'react'
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/pro1.png";
+import projImg2 from "../assets/img/pro2.png";
+import projImg3 from "../assets/img/pro3.png";
+import projImg4 from "../assets/img/pro4.png";
+import projImg5 from "../assets/img/pro5.png";
+import projImg6 from "../assets/img/pro6.png";
+import projImg7 from "../assets/img/pro7.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -27,30 +31,30 @@ export const Projects = () => {
       title: "Personal Portfolio",
       description: "Design & Development",
       imgUrl: projImg3,
-      link: 'https://drive.google.com/file/d/1mqhNp279jmgFfvIlERR9VpiQuqI1TFOS/view?usp=sharing',
+      link: 'https://github.com/pkjha0102/Personal-Portfolio',
     },
     {
       title: "Web Based Music Player",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
       link: 'https://github.com/pkjha0102/Music-Player',
     },
     {
       title: "Reaction Diffusion Model and Turing's Patterns",
       description: "Mathematics",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
       link: 'https://github.com/pkjha0102/Reaction-Diffusion-Model-and-Turing-s-Patterns',
     },
     {
       title: "Smart Parking",
       description: "Arduino",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
       link: 'https://github.com/pkjha0102/Smart-Parking',
     },
     {
       title: "Algorithms in Numerical Linear Algebra",
       description: "Mathematics",
-      imgUrl: projImg3,
+      imgUrl: projImg7,
       link: 'https://github.com/pkjha0102/Numerical-Linear-Algebra',
     },
   ];
@@ -59,19 +63,19 @@ export const Projects = () => {
     {
       title: "Personal Portfolio",
       description: "Design & Development",
-      imgUrl: projImg3,
-      link: 'https://drive.google.com/file/d/1mqhNp279jmgFfvIlERR9VpiQuqI1TFOS/view?usp=sharing',
+      imgUrl: projImg1,
+      link: 'https://github.com/pkjha0102/Personal-Portfolio',
     },
     {
       title: "Web Based Music Player",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg2,
       link: 'https://github.com/pkjha0102/Music-Player',
     },
     {
       title: "Face Regonition Based Attendance System",
       description: "Machine Learning",
-      imgUrl: projImg1,
+      imgUrl: projImg3,
       link: 'https://github.com/pkjha0102/Face-Recognition-Based-Attendance-System',
     },
   ];
@@ -80,13 +84,13 @@ export const Projects = () => {
     {
       title: "Face Regonition Based Attendance System",
       description: "Machine Learning",
-      imgUrl: projImg1,
+      imgUrl: projImg3,
       link: 'https://github.com/pkjha0102/Face-Recognition-Based-Attendance-System',
     },
     {
       title: "Stock Price Prediction Using ARIMA, GARCH and Random Forest Models",
       description: "Data Analytics",
-      imgUrl: projImg2,
+      imgUrl: projImg4,
       link: 'https://github.com/pkjha0102/Stock-Price-Prediction-and-Volatality-Modeling-Using-ARIMA--GARCH-and-Random-Forest',
     },
   ];
@@ -95,7 +99,7 @@ export const Projects = () => {
     {
       title: "Stock Price Prediction Using ARIMA, GARCH and Random Forest Models",
       description: "Data Analytics",
-      imgUrl: projImg2,
+      imgUrl: projImg4,
       link: 'https://github.com/pkjha0102/Stock-Price-Prediction-and-Volatality-Modeling-Using-ARIMA--GARCH-and-Random-Forest',
     },
   ];
@@ -104,19 +108,19 @@ export const Projects = () => {
     {
       title: "Reaction Diffusion Model and Turing's Patterns",
       description: "Mathematics",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
       link: 'https://github.com/pkjha0102/Reaction-Diffusion-Model-and-Turing-s-Patterns',
     },
     {
       title: "Smart Parking",
       description: "Arduino",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
       link: 'https://github.com/pkjha0102/Smart-Parking',
     },
     {
       title: "Algorithms in Numerical Linear Algebra",
       description: "Mathematics",
-      imgUrl: projImg3,
+      imgUrl: projImg7,
       link: 'https://github.com/pkjha0102/Numerical-Linear-Algebra',
     },
   ];

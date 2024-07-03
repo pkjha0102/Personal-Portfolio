@@ -61,7 +61,7 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Prakash`} </h1>
                 <h2><span className="txt-rotate" dataPeriod="2000" data-rotate='[ "Software Developer...", "Web Designer...", "Competitive Programmer..." ]'><span className="wrap">{text}</span></span></h2>
                   <p>I am an experienced software developer and web designer as well as a proficient competitive programmer. I possess good knowledge in JavaScript ans its libraries and frameworks like React js, Next js and Node js. On the other side I have strong grasp on Data Structures and Algorithms with over 800+ problems solved across plateforms. I have also thoroughly studied Database Management, Computer Networks, Operating systems amd Compiler Design. I have good hands in data analytics with SQL, MATLAB and R and machine learning with Python and MATLAB.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button className='resume' onClick={() => window.location.href = 'https://drive.google.com/file/d/1tU3a8CmaWL-sPMh0cxE-r9YFXcFhSVxa/view?usp=sharing'}>Resume <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

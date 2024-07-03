@@ -7,6 +7,12 @@ import {Banner} from "./components/Banner";
 import {Education} from './components/Education';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
+import {Profiles} from './components/Profiles';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
+import { Accomplishments } from './components/Accomplishments';
+import {Responsibilities} from './components/Responsibilities';
+import { LightDark } from './components/LightDark';
 
 function App() {
   return (
@@ -16,6 +22,12 @@ function App() {
       <Education/>
       <Skills/>
       <Projects/>
+      <Profiles/>
+      <Accomplishments/>
+      <Responsibilities/>
+      <Contact/>
+      <Footer/>
+      {/* <LightDark/> */}
     </div>
   );
 }

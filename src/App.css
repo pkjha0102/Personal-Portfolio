@@ -52,10 +52,10 @@ p, a, li, button, ul {
   line-height: normal;
   text-decoration: none;
 }
-
+/* 
 a:hover {
   text-decoration: none;
-}
+} */
 
 img {
   width: 100%;
@@ -200,6 +200,11 @@ span.navbar-text {
 	height: 100%;
   border-radius: 30px;
 }
+.logoImg {
+  /* max-width: 50%;
+  max-height: 50%; */
+  margin-left: -25%;
+}
 /* nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: none;
@@ -271,6 +276,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  border-radius: 7.5px;
 }
 .banner h1 {
   font-size: 65px;
@@ -324,6 +330,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   max-width: 75%;
   max-height: 75%;
   margin-left: 25%;
+}
+/* .resume {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px;
+  background: linear-gradient(90.21deg, #0f050b -5.91%, #070513 111.58%);
+} */
+.resume {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+  border-radius: 30px;
+}
+.resume:hover {
+  color: #000000;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+.resume:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+  border-radius: 30px;
 }
 
 /* .banner img {
@@ -413,7 +446,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-/************ Skills Css ************/
+/************ skills Css ************/
 .skill {
   padding: 80px 0 50px 0;
   position: relative;
@@ -697,10 +730,162 @@ ul li {
 }
 
 
-
-/************ Projects Css ************/
-.contact {
+/************ Profiles Css ************/
+.profile {
+  padding: 7% 0 50px 0;
+  position: relative;
+}
+.profile-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.profile h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.profile p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 40px 0;
+}
+.profile-text button {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-left: 18px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+  border-radius: 30px;
+}
+.profile-text button:hover {
+  color: #000000;
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+.profile-text button:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+  border-radius: 30px;
+}
+
+
+
+
+/************ accomplishment Css ************/
+.accomplishment {
+  padding: 80px 0 50px 0;
+  position: relative;
+}
+.accomplishment-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.accomplishment h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.accomplishment p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+.accom1 {
+  margin-left: 40%;
+  text-align: left;
+  font-size: 18px;
+  border-radius: 20px;
+  background: linear-gradient(90.21deg, #200a18 -5.91%, #130c32 111.58%);
+}
+.accom2 {
+  /* margin-left: 10%; */
+  text-align: left;
+  font-size: 18px;
+  max-width: 70%;
+  border-radius: 20px;
+  background: linear-gradient(90.21deg, #200a18 -5.91%, #130c32 111.58%);
+}
+ul li { 
+  padding: 5px 0px; 
+}
+
+
+/************ PoRs Css ************/
+.PoR {
+  padding: 80px 0 50px 0;
+  position: relative;
+}
+.PoR-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.PoR h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.PoR p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: justify;
+  width: 56%;
+}
+.PoR-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+.PoR1 {
+  margin-left: 35%;
+  text-align: left;
+  font-size: 18px;
+  border-radius: 20px;
+  background: linear-gradient(90.21deg, #200a18 -5.91%, #130c32 111.58%);
+}
+.PoR2 {
+  /* margin-left: 10%; */
+  text-align: left;
+  font-size: 18px;
+  max-width: 70%;
+  border-radius: 20px;
+  background: linear-gradient(90.21deg, #200a18 -5.91%, #130c32 111.58%);
+}
+ul li { 
+  padding: 5px 0px; 
+}
+
+
+/************ contact Css ************/
+.contact {
+  background: linear-gradient(90.21deg, #250b1b -5.91%, #110b2d 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -747,17 +932,20 @@ ul li {
   border-radius: 0;
   position: relative;
   transition: 0.3s ease-in-out;
+  border-radius: 30px;
 }
 .contact form button span {
   z-index: 1;
   position: relative;
+  border-radius: 30px;
 }
 .contact form button:hover {
   color: #fff;
+  border-radius: 30px;
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #1c0b2d;
   width: 0;
   height: 100%;
   position: absolute;
@@ -765,6 +953,7 @@ ul li {
   left: 0;
   z-index: 0;
   transition: 0.3s ease-in-out;
+  border-radius: 30px;
 }
 .contact form button:hover::before {
   width: 100%;
@@ -772,13 +961,13 @@ ul li {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 10px 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.newsletter-bx {
+/* .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
   color: #121212;
@@ -837,14 +1026,15 @@ ul li {
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
-}
+} */
 .footer img {
   width: 26%;
+  margin-left: -8%;
 }
 .footer p {
   font-weight: 400;
   font-size: 14px;
   color: #B8B8B8;
   letter-spacing: 0.5px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
