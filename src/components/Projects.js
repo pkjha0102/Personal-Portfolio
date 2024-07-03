@@ -16,28 +16,28 @@ export const Projects = () => {
 
   const projectsAll = [
     {
-      title: "Face Regonition Based Attendance System",
+      title: "Personal Portfolio",
       description: "Machine Learning",
       imgUrl: projImg1,
+      link: 'https://github.com/pkjha0102/Personal-Portfolio',
+    },
+    {
+      title: "Web Based Music Playe",
+      description: "Data Analytics",
+      imgUrl: projImg2,
+      link: 'https://github.com/pkjha0102/Music-Player',
+    },
+    {
+      title: "Face Regonition Based Attendance System",
+      description: "Design & Development",
+      imgUrl: projImg3,
       link: 'https://github.com/pkjha0102/Face-Recognition-Based-Attendance-System',
     },
     {
       title: "Stock Price Prediction Using ARIMA, GARCH and Random Forest Models",
-      description: "Data Analytics",
-      imgUrl: projImg2,
-      link: 'https://github.com/pkjha0102/Stock-Price-Prediction-and-Volatality-Modeling-Using-ARIMA--GARCH-and-Random-Forest',
-    },
-    {
-      title: "Personal Portfolio",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      link: 'https://github.com/pkjha0102/Personal-Portfolio',
-    },
-    {
-      title: "Web Based Music Player",
       description: "Design & Development",
       imgUrl: projImg4,
-      link: 'https://github.com/pkjha0102/Music-Player',
+      link: 'https://github.com/pkjha0102/Stock-Price-Prediction-and-Volatality-Modeling-Using-ARIMA--GARCH-and-Random-Forest',
     },
     {
       title: "Reaction Diffusion Model and Turing's Patterns",
@@ -46,35 +46,35 @@ export const Projects = () => {
       link: 'https://github.com/pkjha0102/Reaction-Diffusion-Model-and-Turing-s-Patterns',
     },
     {
-      title: "Smart Parking",
+      title: "Algorithms in Numerical Linear Algebra",
       description: "Arduino",
       imgUrl: projImg6,
-      link: 'https://github.com/pkjha0102/Smart-Parking',
+      link: 'https://github.com/pkjha0102/Numerical-Linear-Algebra',
     },
     {
-      title: "Algorithms in Numerical Linear Algebra",
+      title: "Smart Parking",
       description: "Mathematics",
       imgUrl: projImg7,
-      link: 'https://github.com/pkjha0102/Numerical-Linear-Algebra',
+      link: 'https://github.com/pkjha0102/Smart-Parking',
     },
   ];
 
   const projectsWeb = [
     {
       title: "Personal Portfolio",
-      description: "Design & Development",
+      description: "Machine Learning",
       imgUrl: projImg1,
       link: 'https://github.com/pkjha0102/Personal-Portfolio',
     },
     {
-      title: "Web Based Music Player",
-      description: "Design & Development",
+      title: "Web Based Music Playe",
+      description: "Data Analytics",
       imgUrl: projImg2,
       link: 'https://github.com/pkjha0102/Music-Player',
     },
     {
       title: "Face Regonition Based Attendance System",
-      description: "Machine Learning",
+      description: "Design & Development",
       imgUrl: projImg3,
       link: 'https://github.com/pkjha0102/Face-Recognition-Based-Attendance-System',
     },
@@ -83,13 +83,13 @@ export const Projects = () => {
   const projectsML = [
     {
       title: "Face Regonition Based Attendance System",
-      description: "Machine Learning",
+      description: "Design & Development",
       imgUrl: projImg3,
       link: 'https://github.com/pkjha0102/Face-Recognition-Based-Attendance-System',
     },
     {
       title: "Stock Price Prediction Using ARIMA, GARCH and Random Forest Models",
-      description: "Data Analytics",
+      description: "Design & Development",
       imgUrl: projImg4,
       link: 'https://github.com/pkjha0102/Stock-Price-Prediction-and-Volatality-Modeling-Using-ARIMA--GARCH-and-Random-Forest',
     },
@@ -98,9 +98,15 @@ export const Projects = () => {
   const projectsData = [
     {
       title: "Stock Price Prediction Using ARIMA, GARCH and Random Forest Models",
-      description: "Data Analytics",
+      description: "Design & Development",
       imgUrl: projImg4,
       link: 'https://github.com/pkjha0102/Stock-Price-Prediction-and-Volatality-Modeling-Using-ARIMA--GARCH-and-Random-Forest',
+    },
+    {
+      title: "Reaction Diffusion Model and Turing's Patterns",
+      description: "Mathematics",
+      imgUrl: projImg5,
+      link: 'https://github.com/pkjha0102/Reaction-Diffusion-Model-and-Turing-s-Patterns',
     },
   ];
 
@@ -112,16 +118,16 @@ export const Projects = () => {
       link: 'https://github.com/pkjha0102/Reaction-Diffusion-Model-and-Turing-s-Patterns',
     },
     {
-      title: "Smart Parking",
+      title: "Algorithms in Numerical Linear Algebra",
       description: "Arduino",
       imgUrl: projImg6,
-      link: 'https://github.com/pkjha0102/Smart-Parking',
+      link: 'https://github.com/pkjha0102/Numerical-Linear-Algebra',
     },
     {
-      title: "Algorithms in Numerical Linear Algebra",
+      title: "Smart Parking",
       description: "Mathematics",
       imgUrl: projImg7,
-      link: 'https://github.com/pkjha0102/Numerical-Linear-Algebra',
+      link: 'https://github.com/pkjha0102/Smart-Parking',
     },
   ];
 
