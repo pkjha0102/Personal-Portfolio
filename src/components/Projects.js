@@ -17,25 +17,25 @@ export const Projects = () => {
   const projectsAll = [
     {
       title: "Personal Portfolio",
-      description: "Machine Learning",
+      description: "Design & Development",
       imgUrl: projImg1,
       link: 'https://github.com/pkjha0102/Personal-Portfolio',
     },
     {
       title: "Web Based Music Playe",
-      description: "Data Analytics",
+      description: "Design & Development",
       imgUrl: projImg2,
       link: 'https://github.com/pkjha0102/Music-Player',
     },
     {
       title: "Face Regonition Based Attendance System",
-      description: "Design & Development",
+      description: "Machine Learning",
       imgUrl: projImg3,
       link: 'https://github.com/pkjha0102/Face-Recognition-Based-Attendance-System',
     },
     {
       title: "Stock Price Prediction Using ARIMA, GARCH and Random Forest Models",
-      description: "Design & Development",
+      description: "Data Analytics",
       imgUrl: projImg4,
       link: 'https://github.com/pkjha0102/Stock-Price-Prediction-and-Volatality-Modeling-Using-ARIMA--GARCH-and-Random-Forest',
     },
@@ -47,13 +47,13 @@ export const Projects = () => {
     },
     {
       title: "Algorithms in Numerical Linear Algebra",
-      description: "Arduino",
+      description: "Mathematics",
       imgUrl: projImg6,
       link: 'https://github.com/pkjha0102/Numerical-Linear-Algebra',
     },
     {
       title: "Smart Parking",
-      description: "Mathematics",
+      description: "Arduino",
       imgUrl: projImg7,
       link: 'https://github.com/pkjha0102/Smart-Parking',
     },
@@ -62,13 +62,13 @@ export const Projects = () => {
   const projectsWeb = [
     {
       title: "Personal Portfolio",
-      description: "Machine Learning",
+      description: "Design & Development",
       imgUrl: projImg1,
       link: 'https://github.com/pkjha0102/Personal-Portfolio',
     },
     {
       title: "Web Based Music Playe",
-      description: "Data Analytics",
+      description: "Design & Development",
       imgUrl: projImg2,
       link: 'https://github.com/pkjha0102/Music-Player',
     },
@@ -83,13 +83,13 @@ export const Projects = () => {
   const projectsML = [
     {
       title: "Face Regonition Based Attendance System",
-      description: "Design & Development",
+      description: "Machine Learning",
       imgUrl: projImg3,
       link: 'https://github.com/pkjha0102/Face-Recognition-Based-Attendance-System',
     },
     {
       title: "Stock Price Prediction Using ARIMA, GARCH and Random Forest Models",
-      description: "Design & Development",
+      description: "Machine Learning",
       imgUrl: projImg4,
       link: 'https://github.com/pkjha0102/Stock-Price-Prediction-and-Volatality-Modeling-Using-ARIMA--GARCH-and-Random-Forest',
     },
@@ -98,13 +98,13 @@ export const Projects = () => {
   const projectsData = [
     {
       title: "Stock Price Prediction Using ARIMA, GARCH and Random Forest Models",
-      description: "Design & Development",
+      description: "Data Analytics",
       imgUrl: projImg4,
       link: 'https://github.com/pkjha0102/Stock-Price-Prediction-and-Volatality-Modeling-Using-ARIMA--GARCH-and-Random-Forest',
     },
     {
       title: "Reaction Diffusion Model and Turing's Patterns",
-      description: "Mathematics",
+      description: "Data Analytics",
       imgUrl: projImg5,
       link: 'https://github.com/pkjha0102/Reaction-Diffusion-Model-and-Turing-s-Patterns',
     },
@@ -119,13 +119,13 @@ export const Projects = () => {
     },
     {
       title: "Algorithms in Numerical Linear Algebra",
-      description: "Arduino",
+      description: "Mathematics",
       imgUrl: projImg6,
       link: 'https://github.com/pkjha0102/Numerical-Linear-Algebra',
     },
     {
       title: "Smart Parking",
-      description: "Mathematics",
+      description: "Arduino",
       imgUrl: projImg7,
       link: 'https://github.com/pkjha0102/Smart-Parking',
     },
