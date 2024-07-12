@@ -35,7 +35,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #14120d !important;
+  background-color: #09090d !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -205,7 +205,7 @@ span.navbar-text {
   max-height: 50%; */
   margin-left: -25%;
 }
-/* nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: none;
     box-shadow: none;
@@ -249,7 +249,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
-} */
+}
 
 
 
@@ -260,7 +260,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-  margin-top: 0;
+  margin-top: 8vh;
   padding: 260px 0 100px 0;
   /* background-image: url('./assets/img/banner-bg.png'); */
   background-position: top center;
@@ -329,7 +329,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 20px;
   max-width: 75%;
   max-height: 75%;
-  margin-left: 25%;
+  margin-left: 8vh;
+  margin-top: 25px;
 }
 /* .resume {
   border: 1px solid #fff;
@@ -479,9 +480,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .courseimage {
-  max-width: 30%;
-  max-height: 30%;
-  border-radius: 20px;
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 10px;
 }
 .background-image-left {
   top: 28%;
@@ -491,7 +492,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 .theoryCourses1 {
-  margin-left: 50%;
+  /* margin-left: 0vh; */
   text-align: left;
   font-size: 18px;
   border-radius: 20px;
@@ -501,7 +502,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* margin-left: 10%; */
   text-align: left;
   font-size: 18px;
-  max-width: 70%;
+  /* max-width: 70%; */
   border-radius: 20px;
   background: linear-gradient(90.21deg, #200a18 -5.91%, #130c32 111.58%);
 }
@@ -543,7 +544,7 @@ ul li {
   margin-left: 50px;
  }
  .skill .nav.nav-pills {
-  width: 52%;
+  width: 80vw;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -616,7 +617,7 @@ ul li {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 84vw;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -753,14 +754,20 @@ ul li {
     line-height: 1.5em;
     margin: 14px 0 40px 0;
 }
+.profile-text {
+  align-items: center;
+  list-style-type: none;
+}
 .profile-text button {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
   padding: 10px 20px;
   font-size: 18px;
-  margin-left: 18px;
-	position: relative;
+  /* margin-right: 20px;
+  margin-left: 10px; */
+  max-height: 120px;
+  max-width: 300px;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
   border-radius: 30px;
@@ -775,7 +782,11 @@ ul li {
 	height: 100%;
   border-radius: 30px;
 }
-
+.ltdcLogo {
+  max-width: 10%;
+  max-width: 10%;
+  margin-right: 10px;
+}
 
 
 
@@ -812,7 +823,7 @@ ul li {
   z-index: -4;
 }
 .accom1 {
-  margin-left: 40%;
+  /* margin-left: 40%; */
   text-align: left;
   font-size: 18px;
   border-radius: 20px;
@@ -822,7 +833,7 @@ ul li {
   /* margin-left: 10%; */
   text-align: left;
   font-size: 18px;
-  max-width: 70%;
+  /* max-width: 70%; */
   border-radius: 20px;
   background: linear-gradient(90.21deg, #200a18 -5.91%, #130c32 111.58%);
 }
@@ -864,7 +875,7 @@ ul li {
   z-index: -4;
 }
 .PoR1 {
-  margin-left: 35%;
+  /* margin-left: 35%; */
   text-align: left;
   font-size: 18px;
   border-radius: 20px;
@@ -874,7 +885,7 @@ ul li {
   /* margin-left: 10%; */
   text-align: left;
   font-size: 18px;
-  max-width: 70%;
+  /* max-width: 70%; */
   border-radius: 20px;
   background: linear-gradient(90.21deg, #200a18 -5.91%, #130c32 111.58%);
 }
