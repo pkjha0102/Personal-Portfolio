@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee787740f7d89fdbf40a205200e6f827",
+    "revision": "38b61227e3f88998d95a2e50ff2a1bb0",
     "url": "/Personal-Portfolio/index.html"
   },
   {
-    "revision": "c45e69d6d14913031f50",
+    "revision": "0f3b6f7c04dfc9ec6d50",
     "url": "/Personal-Portfolio/static/css/2.dd855a6e.chunk.css"
   },
   {
-    "revision": "b3b21fc0c70e1cf758c3",
-    "url": "/Personal-Portfolio/static/css/main.fb0f95a8.chunk.css"
+    "revision": "2cee7a918976bf993ac8",
+    "url": "/Personal-Portfolio/static/css/main.1130838f.chunk.css"
   },
   {
-    "revision": "c45e69d6d14913031f50",
-    "url": "/Personal-Portfolio/static/js/2.7585ad0d.chunk.js"
+    "revision": "0f3b6f7c04dfc9ec6d50",
+    "url": "/Personal-Portfolio/static/js/2.4fc49aed.chunk.js"
   },
   {
-    "revision": "a3f9a922bad92e7e4407",
-    "url": "/Personal-Portfolio/static/js/3.76d54c8d.chunk.js"
+    "revision": "e9bb9e369d1cc73df19e",
+    "url": "/Personal-Portfolio/static/js/3.890a9f11.chunk.js"
   },
   {
-    "revision": "b3b21fc0c70e1cf758c3",
-    "url": "/Personal-Portfolio/static/js/main.cdb58dda.chunk.js"
+    "revision": "2cee7a918976bf993ac8",
+    "url": "/Personal-Portfolio/static/js/main.e2aa3fa0.chunk.js"
   },
   {
-    "revision": "4734a03ce4c368acbe8e",
-    "url": "/Personal-Portfolio/static/js/runtime~main.aca27843.js"
+    "revision": "626f271f5f55ebeb68a5",
+    "url": "/Personal-Portfolio/static/js/runtime~main.57fca459.js"
   },
   {
     "revision": "ad64f0f4d2b1ef94ca2e7e9540cfb1fb",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Portfolio/static/media/CentraNo2-Medium.63911e85.ttf"
   },
   {
+    "revision": "72917c2234a9c41baf796c0b1fcbc200",
+    "url": "/Personal-Portfolio/static/media/LeetCode_Logo_1.72917c22.png"
+  },
+  {
     "revision": "4cadbf9fe4da85ea2122d48cbb463616",
     "url": "/Personal-Portfolio/static/media/Matlab_Logo.4cadbf9f.png"
   },
@@ -66,6 +70,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c1c5353e8ce476277f0350ff2771b423",
     "url": "/Personal-Portfolio/static/media/c++.c1c5353e.png"
+  },
+  {
+    "revision": "292e43fbcd479ce4c5b3dae238177105",
+    "url": "/Personal-Portfolio/static/media/codechef.292e43fb.png"
+  },
+  {
+    "revision": "cfcf95f94d900ff592ada8d2fd1c1eab",
+    "url": "/Personal-Portfolio/static/media/codeforces.cfcf95f9.webp"
   },
   {
     "revision": "d64094774a77a02c2c22356681131cb8",
@@ -102,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e9228c17c13a87653f1b8ed01a3ff306",
     "url": "/Personal-Portfolio/static/media/footer-bg.e9228c17.png"
+  },
+  {
+    "revision": "a732d15f3a2034e4885f75f39b371319",
+    "url": "/Personal-Portfolio/static/media/hackerrank.a732d15f.png"
   },
   {
     "revision": "440a4be085341b440eb013f753b0ed33",
