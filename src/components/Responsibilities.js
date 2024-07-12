@@ -18,6 +18,7 @@ export const Responsibilities = () => {
                           <div className='row'>
                                 <div className='col'>
                                     <ul className='PoR1'>
+                                        <li>Assistant Head Coordinator in Training and Placement Cell.</li>
                                         <li>Co-founder and Coordinator of Natyarangam - Annual Dramatics Fest of IIT Patna.</li>
                                         <li>Part of the team that secured Gold Medal in Dramatics at Annual Techno-Cultural Fest of IIIT Bhagalpur,
                                         Enyugma’22.</li>
