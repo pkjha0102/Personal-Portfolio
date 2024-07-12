@@ -805,6 +805,8 @@ ul li {
 .accomplishment h2 {
 	font-size: 45px;
 	font-weight: 700;
+  left: 50%;
+  right: 50%;
 }
 .accomplishment p {
   color: #B8B8B8;
@@ -857,6 +859,8 @@ ul li {
 .PoR h2 {
 	font-size: 45px;
 	font-weight: 700;
+  left: 50%;
+  right: 50%;
 }
 .PoR p {
   color: #B8B8B8;
